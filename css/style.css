@@ -32,7 +32,7 @@ p {
     background: #007765;
     padding-top: 20px;
     padding-bottom: 11px;
-    display: fixed;
+    /* display: fixed; */
   
 }
 
@@ -53,3 +53,14 @@ p {
     text-decoration: none;
 }
 
+.section-title {
+    background: url('../img/bg1.png') no-repeat;
+    background-size: cover;
+    padding: 160px 0;
+}
+
+.title-main {
+    text-align: center;
+    font-size: 72px;
+    
+}
