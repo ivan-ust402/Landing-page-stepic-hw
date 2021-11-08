@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    color: #007765;
 }
 
 p {
@@ -125,4 +126,47 @@ p {
 
 .no-float {
     clear: both;
+}
+
+.section-team {
+    background: #eee;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.team {
+    margin-top: 32px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.person {
+    text-align: center;
+    padding-top: 24px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 28px;
+    width: 350px;
+
+}
+
+.photo {
+    height: 168px;
+    margin-bottom: 12px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.prof {
+    margin: 0;
+    font-style: italic;
+    color: #000;
+    font-size: 18px;
+    
 }
