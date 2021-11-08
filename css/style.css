@@ -77,12 +77,12 @@ p {
     text-align: center;
 }
 
-.text-problem {
+.section-text {
     font-weight: 400;
     color: #000;
 }
 
-.text-problem .bold {
+.section-text .bold {
     font-weight: bold;
 }
 
@@ -104,4 +104,25 @@ p {
     font-style: italic;
     font-size: 48px;
     text-align: center;
+}
+
+.section-introducing {
+    background: #fff;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.pcclogo {
+    height: 115px;
+    float: left;
+    margin-top: 16px;
+    margin-right: 48px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.no-float {
+    clear: both;
 }
