@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    line-height: 1.65em;
+    
 }
 
 .container {
@@ -53,7 +53,7 @@ p {
     text-decoration: none;
 }
 
-.section-title {
+.main-title {
     background: url('../img/bg1.png') no-repeat;
     background-size: cover;
     padding: 160px 0;
@@ -63,4 +63,25 @@ p {
     text-align: center;
     font-size: 72px;
     
+}
+
+.section-problem {
+    background: #eee;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.section-title {
+    color: #007765;
+    font-size: 64px;
+    text-align: center;
+}
+
+.text-problem {
+    font-weight: 400;
+    color: #000;
+}
+
+.text-problem .bold {
+    font-weight: bold;
 }
