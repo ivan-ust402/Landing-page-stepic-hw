@@ -33,9 +33,9 @@ p {
     background: #007765;
     padding-top: 20px;
     padding-bottom: 11px;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
-  
 }
 
 .wrapper {
@@ -56,10 +56,19 @@ p {
     text-decoration: none;
 }
 
+.start {
+    position: relative;
+    top: -83px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+}
+
 .main-title {
     background: url('../img/bg1.png') no-repeat center;
     background-size: 100% 100%;
     padding: 160px 0;
+   
 }
 
 .title-main {
@@ -68,11 +77,20 @@ p {
     color: #fff;
 }
 
+.first {
+    position: relative;
+    top: -83px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+}
+
 .section-problem {
     background: #eee;
     padding-top: 48px;
     padding-bottom: 52px;
 }
+
 
 .section-title {
     color: #007765;
@@ -119,6 +137,14 @@ p {
     text-align: center;
 }
 
+.second {
+    position: relative;
+    top: -83px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+}
+
 .section-introducing {
     background: #fff;
     padding-top: 48px;
@@ -137,6 +163,14 @@ p {
 
 .no-float {
     clear: both;
+}
+
+.third {
+    position: relative;
+    top: -83px;
+    left: 0;
+    width: 0px;
+    height: 0px;
 }
 
 .section-team {
