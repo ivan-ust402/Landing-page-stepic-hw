@@ -68,7 +68,9 @@ p {
     background: url('../img/bg1.png') no-repeat center;
     background-size: 100% 100%;
     padding: 160px 0;
-   
+    border-top: 83px solid transparent;
+    margin-top: -83px;
+    background-clip: padding-box;
 }
 
 .title-main {
@@ -89,6 +91,10 @@ p {
     background: #eee;
     padding-top: 48px;
     padding-bottom: 52px;
+    border-top: 83px solid transparent;
+    margin-top: -83px;
+    background-clip: padding-box;
+    
 }
 
 
@@ -149,6 +155,9 @@ p {
     background: #fff;
     padding-top: 48px;
     padding-bottom: 52px;
+    border-top: 83px solid transparent;
+    margin-top: -83px;
+    background-clip: padding-box;
 }
 
 .pcclogo {
@@ -177,6 +186,10 @@ p {
     background: #eee;
     padding-top: 48px;
     padding-bottom: 92px;
+    border-top: 83px solid transparent;
+    margin-top: -83px;
+    background-clip: padding-box;
+    
 }
 
 .team {
