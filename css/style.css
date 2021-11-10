@@ -66,14 +66,6 @@ p {
     text-decoration: underline;
 }
 
-.start {
-    position: relative;
-    top: -83px;
-    left: 0;
-    width: 0px;
-    height: 0px;
-}
-
 .main-title {
     background: url('../img/bg1.png') no-repeat center;
     background-size: 100% 100%;
@@ -87,14 +79,6 @@ p {
     text-align: center;
     font-size: 72px;
     color: #fff;
-}
-
-.first {
-    position: relative;
-    top: -83px;
-    left: 0;
-    width: 0px;
-    height: 0px;
 }
 
 .section-problem {
@@ -153,14 +137,6 @@ p {
     text-align: center;
 }
 
-.second {
-    position: relative;
-    top: -83px;
-    left: 0;
-    width: 0px;
-    height: 0px;
-}
-
 .section-introducing {
     background: #fff;
     padding-top: 48px;
@@ -182,14 +158,6 @@ p {
 
 .no-float {
     clear: both;
-}
-
-.third {
-    position: relative;
-    top: -83px;
-    left: 0;
-    width: 0px;
-    height: 0px;
 }
 
 .section-team {
@@ -252,3 +220,4 @@ p {
     margin: 0 340px;
     text-align: center;
 }
+
