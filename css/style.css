@@ -56,14 +56,13 @@ p {
 .ref {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: white;
     font-size: 24px;
     text-decoration: none;
     transition: all 0.5s ease;
-    
+    color: white;
 }
 .ref:hover {
-    text-decoration: underline;
+    color: white;
 }
 
 .main-title {
@@ -85,8 +84,8 @@ p {
     background: #eee;
     padding-top: 48px;
     padding-bottom: 52px;
-    border-top: 83px solid transparent;
-    margin-top: -83px;
+    border-top: 82px solid transparent;
+    margin-top: -82px;
     background-clip: padding-box;
     
 }
@@ -119,7 +118,9 @@ p {
 
 .section-quote {
     background: url('../img/bg2.png') no-repeat;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-position: center center;
     padding-top: 128px;
     padding-bottom: 127px;
 }
@@ -221,3 +222,148 @@ p {
     text-align: center;
 }
 
+/* Responsive -  */
+ /* 1200px - 1400px */
+ /* @media screen and (max-width:1400px) {
+    .container {
+        width: 1320px;
+    }
+ } */
+ /* 1200px - 1400px */
+ /* @media screen and (max-width:1400px) {
+    .container {
+        width: 1140px;
+    }
+ } */
+
+ /* 992px - 1200px */
+ @media screen and (max-width:1200px) {
+    
+     .container {
+         width: 960px;
+     }
+     .credits {
+        margin: 0 55px;
+     }
+     
+    
+ }
+ 
+ /* 768px - 992px */
+ @media screen and (max-width:992px) {
+    .container {
+        width: 720px;
+    }
+    .header {
+        height: 83px;
+        padding-top: 15px;
+      
+    }
+    
+    .img-logo {
+        height: 30px;
+    }
+    .p-ref {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .ref {
+        font-size: 18px;
+    }
+
+    .quote {
+        margin: 0 53px;
+    }
+    
+    .team {
+        justify-content: center;   
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width:768px) {
+    .container {
+        width: 540px;
+    }
+    
+    .img-logo {
+        height: 25px;
+    }
+    .p-ref {
+        font-size: 14px;
+        margin-top: 18px;
+    }
+    .ref {
+        font-size: 14px;
+    }
+    .title-main {
+        font-size: 48px;
+    }
+    .section-title {
+        font-size: 32px;
+    }
+    .section-text {
+        font-size: 24px;
+    }
+    .quote {
+        font-size: 28px;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .prof {
+        font-size: 16px;
+        
+    }
+    .credits {
+        font-size: 16px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width:576px) {
+    .container {
+        width: 98%;
+        padding-left: 15px;
+        padding-right: 15px;
+        }
+    
+    .header {
+        
+        padding-top: 5px;
+        padding-bottom: 11px;
+    }
+    .wrapper {
+        flex-direction: column;        
+    }
+    .img-logo {
+        height: 23px;
+
+    }
+    .p-ref {
+        margin-top: 0px;
+    }
+    
+    .title-main {
+        font-size: 38px;
+    }
+    .section-title {
+        font-size: 28px;
+    }
+    .section-text {
+        font-size: 22px;
+    }
+    .quote {
+        font-size: 26px;
+        margin: 0 15px;
+    }
+    .pcclogo {
+        margin-right: 15px;
+    }
+
+    .credits {
+        font-size: 16px;
+        margin: 0 15px;
+    }
+   
+}
