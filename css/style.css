@@ -238,15 +238,12 @@ p {
 
  /* 992px - 1200px */
  @media screen and (max-width:1200px) {
-    
-     .container {
-         width: 960px;
-     }
-     .credits {
-        margin: 0 55px;
-     }
-     
-    
+    .container {
+        width: 960px;
+    }
+    .credits {
+       margin: 0 55px;
+    }
  }
  
  /* 768px - 992px */
@@ -365,5 +362,4 @@ p {
         font-size: 16px;
         margin: 0 15px;
     }
-   
 }
